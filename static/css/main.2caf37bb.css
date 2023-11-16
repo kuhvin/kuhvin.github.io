@@ -1,0 +1,2 @@
+body{background-color:#232323;font:14px Century Gothic,Futura,sans-serif;height:200vh;margin:20px}#profile{color:#fff;position:fixed;text-align:center}#profile,#profile-pic{left:50%;top:50%;transform:translate(-50%,-50%)}#profile-pic{border-radius:50%;cursor:pointer;min-height:10%;min-width:10%;position:absolute;transition:all .5s}#description{position:relative;top:150%;transition:all .5s}
+/*# sourceMappingURL=main.2caf37bb.css.map*/
