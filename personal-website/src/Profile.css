@@ -1,0 +1,27 @@
+/* Profile.css */
+#profile {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#profile-pic {
+    position: absolute;
+    border-radius: 50%;
+    transition: all 0.5s;
+    min-width: 10%;
+    min-height: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+    
+#description {
+    position: relative;
+    top: 150%;
+    transition: all 0.5s;
+}

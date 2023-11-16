@@ -1,0 +1,24 @@
+/* index.css */
+body {
+  background-color: #232323;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  height: 200vh;
+}
+
+#profile {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+#description {
+  transition: all 0.5s;
+}
