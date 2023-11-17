@@ -32,7 +32,7 @@
     background: #36393e; /* Change to the color you want */
     left: 50%;
     transform: translateX(-50%);
-    transition: all 0.6s;
+    transition: all 0.7s;
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
@@ -41,4 +41,30 @@
 
 #myBar.visible {
     opacity: 0;
+}
+
+.button {
+    position: fixed;
+    font-size: 1.5em;
+    transition: all 0.6s;
+}
+
+#about {
+    transition: all 0.7s;
+    right: 25vw; /* Change this to control the horizontal position of the about and projects buttons */
+}
+#projects{
+    right: 12.5vw; /* Change this to control the horizontal position of the about and projects buttons */
+}
+  
+#resume {
+    left: 12.5vw; /* Change this to control the horizontal position of the resume and contact buttons */
+}
+#contact {
+    transition: all 0.7s;
+    left: 25vw; /* Change this to control the horizontal position of the resume and contact buttons */
+}
+  
+.button:hover {
+    transform: scale(1.1);
 }

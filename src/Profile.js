@@ -57,7 +57,12 @@ class Profile extends React.Component {
             top: scrollPos > 700 ? `-350px` : `${-scrollPos+ 50}px`,
             visibility: `${scrollPos >= 400 ? 'visible' : 'hidden'}`,
             width: `${scrollPos/400 * 100}vw`
-          };
+        };
+        const buttonStyle = {
+            top: scrollPos > 700 ? `-800px` : `${-scrollPos - 10 }px`,
+            visibility: `${scrollPos >= 400 ? 'visible' : 'hidden'}`,
+            opacity: `${scrollPos/400}`,
+        }
         
     
         return (
@@ -68,7 +73,11 @@ class Profile extends React.Component {
                 <div id="description-container">
                     <p id="description" style={descStyle}>Hi,I'm Kevin.</p>
                 </div>
-                <div id="myBar" style={barStyle}></div>
+                <div className="button" id="about" style = {buttonStyle} onClick={() => this.handleClick('about')}>About</div>
+                <div className="button" id="projects" style = {buttonStyle} onClick={() => this.handleClick('projects')}>Projects</div>
+                <div className="button" id="resume" style = {buttonStyle} onClick={() => this.handleClick('resume')}>Resume</div>
+                <div className="button" id="contact" style = {buttonStyle} onClick={() => this.handleClick('contact')}>Contact</div>
+                <div id="myBar" style={barStyle}> </div>
             </div>
             
         );
