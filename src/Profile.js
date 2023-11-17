@@ -18,9 +18,17 @@ class Profile extends React.Component {
     }
 
     handleScroll = () => {
-        const maxScroll = 400 // Adjust as needed
-        this.setState({scrollPos: Math.min(window.scrollY, maxScroll)});
-    }
+        const maxScroll = 400 
+        const scrollPos = Math.min(window.scrollY, maxScroll);
+        this.setState({scrollPos: scrollPos});
+      
+        const bar = document.getElementById('myBar');
+        if (scrollPos < 400) { 
+          bar.style.opacity = 0; 
+        } else {
+          bar.style.opacity = 1; 
+        }
+      }
 
     handleClick = () => {
         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -30,14 +38,19 @@ class Profile extends React.Component {
         const {scrollPos} = this.state;
         console.log(scrollPos);
         const picStyle = {
-            width: `${Math.max(400 - scrollPos, 75)}%`, // Adjust as needed
+            width: `${Math.max(400 - scrollPos, 75)}%`, 
             top: `${-scrollPos}px`
         };
         const descStyle = {
-            opacity: `${1 - scrollPos/300}`,
-            top: `${-scrollPos - scrollPos/2 + 175}px`,
+            opacity: `${1 - scrollPos/400}`,
+            top: `${-scrollPos - scrollPos/2 + 225}px`,
             visibility: `${scrollPos >= 300 ? 'hidden' : 'visible'}`
         };
+        const barStyle = {
+            top: scrollPos >=400 ? `-350px` : `${-scrollPos/2}px`,
+            
+          };
+        
     
         return (
             <div id="profile">
@@ -45,9 +58,11 @@ class Profile extends React.Component {
                     <img id="profile-pic" src={image} alt="Profile" style={picStyle} onClick={this.handleClick} />
                 </div>
                 <div id="description-container">
-                    <p id="description" style={descStyle}>Hi,I'm Kevin.</p>
+                    <p id="description" style={descStyle}>Hi, I'm Kevin.</p>
                 </div>
+                <div id="myBar" style={barStyle}></div>
             </div>
+            
         );
     }
 }
