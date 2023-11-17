@@ -31,7 +31,14 @@ class Profile extends React.Component {
       }
 
     handleClick = () => {
-        window.scrollTo({top: 0, behavior: 'smooth'});
+        const scrollDuration = 1000; // Change this to control the duration of the scroll
+        const scrollStep = -window.scrollY / (scrollDuration / 15),
+        scrollInterval = setInterval(() => {
+        if ( window.scrollY !== 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval); 
+  },15);
     }
 
     render() {
@@ -48,8 +55,8 @@ class Profile extends React.Component {
         };
         const barStyle = {
             top: scrollPos > 700 ? `-350px` : `${-scrollPos+ 50}px`,
-            visibility: `${scrollPos >= 400 ? 'visible' : 'hidden'}`
-            
+            visibility: `${scrollPos >= 400 ? 'visible' : 'hidden'}`,
+            width: `${scrollPos/400 * 100}vw`
           };
         
     

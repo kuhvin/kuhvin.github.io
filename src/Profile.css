@@ -36,8 +36,9 @@
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
+    visibility: hidden;
   }
 
 #myBar.visible {
-    opacity: 1;
+    opacity: 0;
 }
