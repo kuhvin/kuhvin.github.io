@@ -1,0 +1,7 @@
+.contact {
+    position: relative;
+    z-index: 0; 
+    top: 650px; /* Change this to control the vertical position of the sections */
+    text-align: center;
+    transition: all 3s;
+}

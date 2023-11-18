@@ -1,9 +1,12 @@
 /* index.css */
 body {
+  position: relative;
   background-color: #232323;
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
-  height: 200vh;
+  height: 300vh;
+  color: #fff;
+  scroll-behavior: smooth;
 }
 
 #profile {
