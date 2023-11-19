@@ -1,5 +1,6 @@
 {
-  "name": "personal-website",
+  "homepage": "https://kuhvin.github.io/",
+  "name": "kuhvin.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.0"
   }
 }

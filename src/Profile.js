@@ -131,7 +131,7 @@ class Profile extends React.Component {
                     <img id="profile-pic" src={image} alt="Profile" style={picStyle} onClick={() => this.handleClick('profile')} />
                 </div>
                 <div id="description-container">
-                    <p id="description" style={descStyle}>Hi,I'm Kevin.</p>
+                    <p id="description" style={descStyle}>Hi, I'm Kevin.</p>
                 </div>
                 <div className="button" id="about" style = {buttonStyle} onClick={() => this.handleClick('about')}>Me</div>
                 <div className="button" id="projects" style = {buttonStyle} onClick={() => this.handleClick('projects')}>Projects</div>
