@@ -63,7 +63,7 @@ class Resume extends React.Component {
           <ul style = {{marginTop: '0'}}>
             <li>Developed a smartcard reader application in Java to help a non-profit organization track volunteer hours</li>
             <li>Used the OpenCard Framework in Java to connect the chip reader with the back-end of the application</li>
-            <li>Implemented the Java Card applet and framework on the smart card, enabling interaction with the card terminal using ISO-7816 APDU commands =</li>
+            <li>Implemented the Java Card applet and framework on the smart card, enabling interaction with the card terminal using ISO-7816 APDU commands</li>
           </ul>
           <div style={{display: 'flex', justifyContent: 'space-between', }}>
               <p style = {{marginTop: '0'}}><b>Western Mechatronics - Business Manager • Calgary, AB</b></p>

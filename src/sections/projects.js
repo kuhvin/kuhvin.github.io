@@ -63,7 +63,7 @@ const handleMouseLeave = () => {
                     at Vex Robotics signature events.</p>
                     <p>My role in the project was to work in a 12-person team to create a web application that would allow teams to register for the tournament, and 
                       for the tournament organizers to manage the flow of games and scorekeeping.</p>
-                    <p>More information about the event found can be found <a href="https://www.mechamayhem.ca/" className="custom-link-p" style={{textDecoration: 'underline', maxWidth: '2rem'}}>here</a>.</p>
+                    <p>More information about the event can be found <a href="https://www.mechamayhem.ca/" className="custom-link-p" style={{textDecoration: 'underline', maxWidth: '2rem'}}>here</a>.</p>
                     
                     <div style={{display: 'flex', gap: '10px', flexWrap: 'wrap', paddingBottom: '10px', textAlign: 'center'}}>
                         <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Go</div>
