@@ -99,6 +99,7 @@
 #main-container {
     position: relative;
     transform: translate(-50%, -50%);
+    margin-bottom: 10%;
 }
 
 #second-layer {
