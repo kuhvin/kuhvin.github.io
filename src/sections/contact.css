@@ -7,6 +7,7 @@
     display: flex; 
     justify-content: center; 
     gap: 3rem;
+    margin-bottom: 50px;
 }
 
 .custom-link svg {
@@ -20,3 +21,6 @@
     transition: all 0.3s ease;
 }
 
+.spacer {
+    margin-bottom: 50px; /* Adjust this value as needed */
+}

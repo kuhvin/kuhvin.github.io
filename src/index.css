@@ -4,9 +4,10 @@ body {
   background-color: #232323;
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
-  height: 375vh;
+  min-height: 100vh;
   color: #fff;
   scroll-behavior: smooth;
+  padding-bottom: 50px;
 }
 
 #profile {

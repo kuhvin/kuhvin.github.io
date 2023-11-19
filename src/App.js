@@ -6,7 +6,6 @@ function App() {
     return (
         <div className="App">
             <Profile />
-            {/* Other components go here */}
         </div>
     );
 }

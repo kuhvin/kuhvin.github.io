@@ -42,6 +42,7 @@ class Contact extends React.Component {
             </svg>
         </a>
         </div>
+        <div class="spacer" style={{color: "#232323"}}> Oh.. you found this. Man, I just wanted some spacing.</div>
       </div>
     );
   }
