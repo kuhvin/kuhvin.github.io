@@ -60,7 +60,7 @@ class Profile extends React.Component {
             const containerId = `${id}-container`; // Append "-container" to the id
             const element = document.getElementById(containerId);
             if (element) {
-                const yOffset = -250; // Add your flat integer here
+                const yOffset = -240; // Add your flat integer here
                 const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
                 window.scroll({ top: y, behavior: 'smooth' });
             } else {
@@ -96,31 +96,29 @@ class Profile extends React.Component {
         const aboutSectionStyle = {  
             top: window.scrollY > 500 ? `${-scrollPos}px` : `${-scrollPos - 10 }px`,
             visibility: `${scrollPos >= 200 ? 'visible' : 'hidden'}`,
-            opacity: `${scrollPos > 400 ? 1 : scrollPos / 400}`,
-            transform: `translateY(${scrollPos < 400 ? 50 - scrollPos / 8 : 0}%)`,
+            opacity: `${scrollPos > 400 ? 1 : scrollPos / 450}`,
             transition: 'top 0.3s, opacity 0.3s, transform 0.3s',
             marginBottom: `20%`
         }
         const projectsSectionStyle = {  
             top: window.scrollY > 500 ? `${-scrollPos}px` : `${-scrollPos - 10 }px`,
             visibility: `${window.scrollY >= 500 ? 'visible' : 'hidden'}`,
-            opacity: `${window.scrollY >= 1100 ? 1 : window.scrollY / 900}`,
-            transform: `translateY(${scrollPos < 400 ? 50 - scrollPos / 8 : 0}%)`,
+            opacity: `${window.scrollY >= 800 ? 1 : window.scrollY / 1200}`,
             transition: 'top 0.3s, opacity 0.3s, transform 0.3s',
             marginBottom: `20%`
         }
         const resumeSectionStyle = {  
             top: window.scrollY > 500 ? `${-scrollPos}px` : `${-scrollPos - 10 }px`,
             visibility: `${scrollPos >= 200 ? 'visible' : 'hidden'}`,
-            opacity: `${scrollPos > 400 ? 1 : scrollPos / 400}`,
+            opacity: `${window.scrollY >= 1400 ? 1 : window.scrollY / 2000}`,
             transform: `translateY(${scrollPos < 400 ? 50 - scrollPos / 8 : 0}%)`,
             transition: 'top 0.3s, opacity 0.3s, transform 0.3s',
-            marginBottom: `20%`
+            marginBottom: `10%`
         }
         const contactSectionStyle = {  
             top: window.scrollY > 500 ? `${-scrollPos}px` : `${-scrollPos - 10 }px`,
             visibility: `${scrollPos >= 200 ? 'visible' : 'hidden'}`,
-            opacity: `${scrollPos > 400 ? 1 : scrollPos / 400}`,
+            opacity: `${window.scrollY >= 2700 ? 1 : scrollPos / 2800}`,
             transform: `translateY(${scrollPos < 400 ? 50 - scrollPos / 8 : 0}%)`,
             transition: 'top 0.3s, opacity 0.3s, transform 0.3s',
             marginBottom: `20%`

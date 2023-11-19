@@ -1,7 +1,22 @@
-.contact {
-    position: relative;
-    z-index: 0; 
-    top: 650px; /* Change this to control the vertical position of the sections */
-    text-align: center;
-    transition: all 3s;
+#contact {
+    width: 50%;
+    margin: auto;
 }
+
+.custom-link {
+    display: flex; 
+    justify-content: center; 
+    gap: 3rem;
+}
+
+.custom-link svg {
+    fill: white;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.custom-link a svg {
+    transition: all 0.3s ease;
+}
+

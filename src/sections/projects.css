@@ -1,3 +1,11 @@
 .project {
 
 }
+.custom-link {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: #7289da;
+}
