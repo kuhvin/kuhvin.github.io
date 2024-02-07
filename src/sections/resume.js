@@ -18,7 +18,7 @@ class Resume extends React.Component {
             <a className="custom-link" href="https://github.com/kuhvin" target="_blank" rel="noopener noreferrer">https://github.com/kuhvin</a> | 
             <a className="custom-link" href="https://www.linkedin.com/in/kevinli5090/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/kevinli5090/</a>
       </h5>
-      <div style={{textAlign: 'left'}}>
+      <div style={{textAlign: 'left', margin: '-50px'}}>
           <h2>EDUCATION</h2>
           <hr/>
           <div style={{display: 'flex', justifyContent: 'space-between'}}>
@@ -75,12 +75,12 @@ class Resume extends React.Component {
             <li>Tested implementation and exception handling using the JUnit library </li>
           </ul>
           <div style={{display: 'flex', justifyContent: 'space-between', }}>
-              <p style = {{marginTop: '0'}}><b>Western Mechatronics - Business Manager • Calgary, AB</b></p>
+              <p style = {{marginTop: '0'}}><b>Junior Achievement - VP IT/Fiannce • Calgary, AB</b></p>
               <p style = {{marginTop: '0'}}><b>July 2022 - Present</b></p>
           </div>
           <ul style = {{marginTop: '0', marginBottom: '30px'}}>
             <li>Maintained and managed all income and expenses for a student-led small business</li>
-            <li>Led a four team to design the company website and social media pages using HTML</li>
+            <li>Led a four-person team to design the company website and social media pages using HTML</li>
           </ul>
           </div>
       </div>
