@@ -66,8 +66,8 @@ class Resume extends React.Component {
             <li>Implemented the Java Card applet and framework on the smart card, enabling interaction with the card terminal using ISO-7816 APDU commands</li>
           </ul>
           <div style={{display: 'flex', justifyContent: 'space-between', }}>
-              <p style = {{marginTop: '0'}}><b>Western Mechatronics - Business Manager • Calgary, AB</b></p>
-              <p style = {{marginTop: '0'}}><b>Octover 2022 - November 2022</b></p>
+              <p style = {{marginTop: '0'}}><b>Media Tracker - Personal Project</b></p>
+              <p style = {{marginTop: '0'}}><b>October 2022 - November 2022</b></p>
           </div>
           <ul style = {{marginTop: '0'}}>
             <li>Designed a user interface for a movie watchlist application using Java Swing</li>
@@ -75,7 +75,7 @@ class Resume extends React.Component {
             <li>Tested implementation and exception handling using the JUnit library </li>
           </ul>
           <div style={{display: 'flex', justifyContent: 'space-between', }}>
-              <p style = {{marginTop: '0'}}><b>Junior Achievement - VP IT/Fiannce • Calgary, AB</b></p>
+              <p style = {{marginTop: '0'}}><b>Junior Achievement - VP IT/Fiannce </b></p>
               <p style = {{marginTop: '0'}}><b>July 2022 - Present</b></p>
           </div>
           <ul style = {{marginTop: '0', marginBottom: '30px'}}>
