@@ -79,7 +79,7 @@ class Profile extends React.Component {
         };
         const descStyle = {
             opacity: `${1 - scrollPos/300}`,
-            top: `${-scrollPos/100 - scrollPos/200 + 17.5}vh`,
+            top: `${-scrollPos/10 - scrollPos/20 + 17.5}vh`,
             visibility: `${scrollPos >= 200 ? 'hidden' : 'visible'}`
         };        
         const barStyle = {

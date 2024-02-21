@@ -106,7 +106,7 @@
     background: #282b30; /* Change to the color you want */
     left: 50%;
     transform: translateX(-50%);
-    transition: top 0.7s ease-out;
+    transition: top 0.7s;
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
