@@ -39,11 +39,11 @@ class Profile extends React.Component {
 
         // Calculate the new height
         var newHeight = Math.max(110, 500-scrollPos);
+        var newBar = Math.max(110, 500-scrollPos);
 
         // Set the new height
         secondLayer.style.height = newHeight + 'px';
-
-        
+        bar.style.top = newBar + 'px';
     }
 
     handleClick = (id) => {
@@ -75,40 +75,40 @@ class Profile extends React.Component {
         console.log(window.scrollY);
         const picStyle = {
             width: `${Math.max(400 - scrollPos, 75)}%`, 
-            top: `${-scrollPos}px`
+            top: `${-scrollPos/10}vh`
         };
         const descStyle = {
             opacity: `${1 - scrollPos/300}`,
-            top: `${-scrollPos - scrollPos/2 + 175}px`,
+            top: `${-scrollPos/100 - scrollPos/200 + 17.5}vh`,
             visibility: `${scrollPos >= 200 ? 'hidden' : 'visible'}`
-        };
+        };        
         const barStyle = {
-            top: scrollPos > 700 ? `-350px` : `${-scrollPos+ 50}px`,
+            top: scrollPos > 700 ? `-35vh` : `${-scrollPos/100 * 50}vh`,
             visibility: `${scrollPos >= 400 ? 'visible' : 'hidden'}`,
             width: `${scrollPos/400 * 100}vw`
         };
         const buttonStyle = {
-            top: scrollPos > 700 ? `-800px` : `${-scrollPos - 10 }px`,
+            top: scrollPos > 700 ? `-80vh` : `${-scrollPos/100 * 10 }vh`,
             visibility: `${scrollPos >= 400 ? 'visible' : 'hidden'}`,
             opacity: `${scrollPos/350}`,
         };
 
         const aboutSectionStyle = {  
-            top: window.scrollY > 500 ? `${-scrollPos}px` : `${-scrollPos - 10 }px`,
+            top: window.scrollY > 500 ? `${-scrollPos/100}vh` : `${-scrollPos/100 - 1 }vh`,
             visibility: `${scrollPos >= 200 ? 'visible' : 'hidden'}`,
             opacity: `${scrollPos > 400 ? 1 : scrollPos / 450}`,
             transition: 'top 0.3s, opacity 0.3s, transform 0.3s',
             marginBottom: `20%`
-        }
+        };
         const projectsSectionStyle = {  
-            top: window.scrollY > 500 ? `${-scrollPos}px` : `${-scrollPos - 10 }px`,
+            top: window.scrollY > 500 ? `${-scrollPos/100}vh` : `${-scrollPos/100 - 1 }vh`,
             visibility: `${window.scrollY >= 500 ? 'visible' : 'hidden'}`,
             opacity: `${window.scrollY >= 800 ? 1 : window.scrollY / 1200}`,
             transition: 'top 0.3s, opacity 0.3s, transform 0.3s',
             marginBottom: `20%`
         }
         const resumeSectionStyle = {  
-            top: window.scrollY > 500 ? `${-scrollPos}px` : `${-scrollPos - 10 }px`,
+            top: window.scrollY > 500 ? `${-scrollPos/100}vh` : `${-scrollPos/100 - 1 }vh`,
             visibility: `${scrollPos >= 200 ? 'visible' : 'hidden'}`,
             opacity: `${window.scrollY >= 1400 ? 1 : window.scrollY / 2000}`,
             transform: `translateY(${scrollPos < 400 ? 50 - scrollPos / 8 : 0}%)`,
@@ -116,7 +116,7 @@ class Profile extends React.Component {
             marginBottom: `10%`
         }
         const contactSectionStyle = {  
-            top: window.scrollY > 500 ? `${-scrollPos}px` : `${-scrollPos - 10 }px`,
+            top: window.scrollY > 500 ? `${-scrollPos/100}vh` : `${-scrollPos/100 - 1 }vh`,
             visibility: `${scrollPos >= 200 ? 'visible' : 'hidden'}`,
             opacity: `${window.scrollY >= 2700 ? 1 : scrollPos / 2800}`,
             transform: `translateY(${scrollPos < 400 ? 50 - scrollPos / 8 : 0}%)`,
@@ -137,9 +137,10 @@ class Profile extends React.Component {
                 <div className="button" id="projects" style = {buttonStyle} onClick={() => this.handleClick('projects')}>Projects</div>
                 <div className="button" id="resume" style = {buttonStyle} onClick={() => this.handleClick('resume')}>Resume</div>
                 <div className="button" id="contact" style = {buttonStyle} onClick={() => this.handleClick('contact')}>Contact</div>
-                <div id="myBar" style={barStyle}> </div>
             </div>
-            <div id="second-layer"></div>
+            <div id="second-layer">
+            <div id="myBar" style={barStyle}> </div>
+            </div>
             <div id="sections-container">
             
                     <div className="section" id="about-container" style = {aboutSectionStyle}>
