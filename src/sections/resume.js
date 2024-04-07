@@ -29,8 +29,8 @@ class Resume extends React.Component {
           <h2>TECHNICAL SKILLS</h2>
           <hr/>
           <ul style = {{marginBottom: '30px'}}>
-            <li><strong>Languages:</strong> Java, Python, SQL, C++, C, CSS, HTML, Latex, Assemly, R, Lua</li>
-            <li><strong>Tools:</strong> Git, JSON, R Studio, NLTK, XML, Java Card, JSON, React, Node.js, Excel, Sharepoint, Flow Automate, VS Code, IntelliJ, Pycharm</li>
+            <li><strong>Languages:</strong> Java, Python, SQL, C++, C, Javascript, CSS, HTML, Latex, Assemly, R, PHP</li>
+            <li><strong>Tools:</strong> Git, JSON, R Studio, NLTK, MySQL, Swing, XML, Java Card, JSON, React, Node.js, Excel, Sharepoint, Flow Automate, VS Code, IntelliJ, Pycharm</li>
           </ul>
           <h2>WORK EXPERIENCE</h2>
           <hr/>
@@ -52,7 +52,7 @@ class Resume extends React.Component {
             <li>Manager for application of grants and other subsidiaries totalling over $20,000 </li>
             <li>Secured a partnership with Google through administering their Girl Powered Event </li>
             <li>Mentor for students grades 5 to 12 to use VexCode to program the main processor for various mechatronic projects </li>
-            <li>Collaborating on a 12-person programming team developing a tournament software for a national competition </li>
+            <li>Collaborated on a 12-person programming team developing a tournament software for a national competition </li>
           </ul>
           <h2>PROJECT EXPERIENCE</h2>
           <hr/>
