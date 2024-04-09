@@ -2,10 +2,10 @@
 body {
   position: relative;
   background-color: #232323;
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: 18px "Century Gothic", Futura, sans-serif;
   margin: 20px;
   min-height: 100vh;
-  color: #fff;
+  color: #ffffffe0;
   scroll-behavior: smooth;
   padding-bottom: 50px;
 }

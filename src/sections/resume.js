@@ -79,9 +79,8 @@ class Resume extends React.Component {
               <p style = {{marginTop: '0'}}><b>Volunteer Hours Tracker - Personal Project</b></p>
           </div>
           <ul style = {{marginTop: '0'}}>
-            <li>Developed a smartcard reader application in Java to help a non-profit organization track volunteer hours</li>
-            <li>Used the OpenCard Framework in Java to connect the chip reader with the back-end of the application</li>
-            <li>Implemented the Java Card applet and framework on the smart card, enabling interaction with the card terminal using ISO-7816 APDU commands</li>
+            <li>Built an end-to-end card-reader application that helps log volunteer hours for a non-profit organization</li>
+            <li>Used the OpenCard Framework in Java to program between backend and hardware, and Apache POI Java API to write into an Excel spreadsheet to organize data</li>
           </ul>
           <div style={{display: 'flex', justifyContent: 'space-between', }}>
               <p style = {{marginTop: '0'}}><b>Media Tracker - Class Project</b></p>

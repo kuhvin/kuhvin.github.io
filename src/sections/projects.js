@@ -40,7 +40,7 @@ const handleMouseLeave = () => {
             opacity: hoveredBox === 2 || hoveredBox === 3 ? 0.5 : 1,
             transition: '0.2s'}}>
           <div onClick={handleExpandClick1} style={{cursor: 'pointer', padding: '10px', fontWeight: 'bold'}}>
-                <p>Mekkanized</p>
+                <p>Furever Friends</p>
           </div>
             <div style={{
                   maxHeight: isExpanded1 ? '600px' : '0',
@@ -55,20 +55,18 @@ const handleMouseLeave = () => {
               }}>
                   <div style={{flex: '30%', display: 'flex', justifyContent: 'center'}}>
                       <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', fontWeight: 'bold'}}>
-                          July 2023 - Ongoing
+                          February 2024 - April 2024
                       </div>
                   </div>
                   <div style = {{flex: '70%', textAlign: 'left', paddingRight: '15px'}}>
-                    <p>Mekkanizedd is a team project with the goal of creating and maintaining high-quality tournament software used
-                    at Vex Robotics signature events.</p>
-                    <p>My role in the project was to work in a 12-person team to create a web application that would allow teams to register for the tournament, and 
-                      for the tournament organizers to manage the flow of games and scorekeeping.</p>
-                    <p>More information about the event can be found <a href="https://www.mechamayhem.ca/" className="custom-link-p" style={{textDecoration: 'underline', maxWidth: '2rem'}}>here</a>.</p>
+                    <p>Furever Friends was a class project with the goal of designing and implementing a full-stack web application that would help users to adopt pets from local shelters. </p>
+                    <p>My role in the project was to set up the database server, write queries that allowed for the required retrieval of information, and sanitize user inputs to prevent SQL injection.</p>
                     
                     <div style={{display: 'flex', gap: '10px', flexWrap: 'wrap', paddingBottom: '10px', textAlign: 'center'}}>
-                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Go</div>
-                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Figma</div>
-                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Svelte</div>
+                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>PHP</div>
+                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>MqSQL</div>
+                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Express</div>
+                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Node.js</div>
                         {/* Add more boxes here */}
                     </div>
                   </div>
@@ -102,12 +100,13 @@ const handleMouseLeave = () => {
                         </div>
               </div>
               <div style = {{flex: '70%', textAlign: 'left', paddingRight: '15px'}}>
-                <p>This project was a voluntary commission to create a program that lets management track volunteer hours using smart cards.</p>
-                <p>I created from scratch a program that used the OpenCard framework in Java, and succesfully deployed it to the non-profit organization I was working with.</p>
-                <p>Like an amateur, I wrote the whole thing in Java, using the Java Card and Spire.XLS APIs to achieve what I needed.</p>
+                <p>This project was a solo voluntary commission to create a program that lets management track volunteer hours using smart cards.</p>
+                <p>I created a program that used the OpenCard framework in Java, stored all the info in an Excel database using the Apache Java API, and succesfully deployed it to current use.</p>
                   
                   <div style={{display: 'flex', gap: '10px', flexWrap: 'wrap', paddingBottom: '10px', textAlign: 'center'}}>
                   <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Java</div>
+                  <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '125px', height: '20px',}}>Apache POI</div>
+                  <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Excel</div>
                 </div>
                 </div>
               </div>
@@ -143,10 +142,10 @@ const handleMouseLeave = () => {
               <div style = {{flex: '70%', textAlign: 'left', paddingRight: '15px'}}>
                 <p>This was my first venture into front-end programming and design.</p>
                 <p>I set out to create a developer portfolio and try my hand with web development languages, using React to help me visualize what was going on.</p>
-                <p>It took me about a week, and I am <em>very</em> proud.</p>
+                <p>I opted to keep it smooth and minimal to help keep it easy on the eyes.</p>
                   
                   <div style={{display: 'flex', gap: '10px', flexWrap: 'wrap', paddingBottom: '10px', textAlign: 'center'}}>
-                  <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>JavaScript</div>
+                  <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '100px', height: '20px',}}>JavaScript</div>
                   <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>HTML</div>
                   <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>CSS</div>
                   <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>React</div>

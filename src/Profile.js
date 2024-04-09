@@ -133,7 +133,7 @@ class Profile extends React.Component {
                 <div id="description-container">
                     <p id="description" style={descStyle}>Hi, I'm Kevin.</p>
                 </div>
-                <div className="button" id="about" style = {buttonStyle} onClick={() => this.handleClick('about')}>Me</div>
+                <div className="button" id="about" style = {buttonStyle} onClick={() => this.handleClick('about')}>About</div>
                 <div className="button" id="projects" style = {buttonStyle} onClick={() => this.handleClick('projects')}>Projects</div>
                 <div className="button" id="resume" style = {buttonStyle} onClick={() => this.handleClick('resume')}>Resume</div>
                 <div className="button" id="contact" style = {buttonStyle} onClick={() => this.handleClick('contact')}>Contact</div>
