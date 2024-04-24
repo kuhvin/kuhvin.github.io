@@ -33,7 +33,7 @@ class Resume extends React.Component {
           <h2>TECHNICAL SKILLS</h2>
           <hr/>
           <ul style = {{marginBottom: '30px'}}> 
-            <li><strong>Languages:</strong> Java, JavaScript, Python, SQL, C++, C, HTML, JSON, PHP</li>
+            <li><strong>Languages:</strong> Java, JavaScript, Python, SQL, C++, C, HTML, PHP</li>
             <li><strong>Tools:</strong> React, Express, Node, Git, Slack, MySQL, Junit, Excel, Microsoft PowerApps </li>
           </ul>
           <h2>WORK/VOLUNTEER EXPERIENCE</h2>

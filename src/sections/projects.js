@@ -64,7 +64,7 @@ const handleMouseLeave = () => {
                     
                     <div style={{display: 'flex', gap: '10px', flexWrap: 'wrap', paddingBottom: '10px', textAlign: 'center'}}>
                         <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>PHP</div>
-                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>MqSQL</div>
+                        <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>MySQL</div>
                         <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Express</div>
                         <div style={{backgroundColor: '#4a4c51', padding: '5px', borderRadius: '5px', width: '75px', height: '20px',}}>Node.js</div>
                         {/* Add more boxes here */}
