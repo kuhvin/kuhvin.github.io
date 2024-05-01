@@ -1,7 +1,7 @@
 // Profile.js
 import React from 'react';
 import './Profile.css';
-import image from './Profile.jpg';
+import image from './profile2.jpg';
 import About from './sections/about';
 import Projects from './sections/projects';
 import Resume from './sections/resume';

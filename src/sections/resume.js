@@ -1,6 +1,6 @@
 import React from 'react';
 import './resume.css';
-import resumepdf from './resumeCopy.pdf'
+import resumepdf from './2024resume.pdf'
 
 class Resume extends React.Component {
   render() {
@@ -15,8 +15,8 @@ class Resume extends React.Component {
       <h5 style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}> 
             <a className="custom-link" href="mailto:kevinli5090@gmail.com">kevinli5090@gmail.com</a> | 
             780-566-5090 | 
-            <a className="custom-link" href="https://www.linkedin.com/in/kevinli5090/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/kevinli5090/</a> | 
-            <a className="custom-link" href="kuhvin.ca" target="_blank" rel="noopener noreferrer">kuhvin.ca</a>
+            <a className="custom-link" href="https://www.linkedin.com/in/kevinli5090/" target="_blank" rel="noopener noreferrer"> https://www.linkedin.com/in/kevinli5090/ </a> | 
+            <a className="custom-link" href="kuhvin.ca" target="_blank" rel="noopener noreferrer"> kuhvin.ca </a>
       </h5>
       <div style={{textAlign: 'left', margin: '-50px'}}>
           <h2>EDUCATION</h2>

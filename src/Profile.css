@@ -7,7 +7,7 @@
     text-align: center;
     color: #fff;
     pointer-events: none;
-    font: 14px "Century Gothic", Futura, sans-serif;
+    font: 14px "Century Gothic", Trebuchet MS, sans-serif;
 }
 
 #profile-pic {
@@ -30,7 +30,6 @@
     
 #description {
     position: relative;
-    top: 150%;
     transition: all 0.5s;
 }
 
