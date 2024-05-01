@@ -44,22 +44,42 @@
     z-index: 2;
 }
 
-#about {
+.button-container{
     transition: all 0.7s;
-    right: 25vw; /* Change this to control the horizontal position of the about and projects buttons */
-}
-#projects{
-    right: 12.5vw; /* Change this to control the horizontal position of the about and projects buttons */
+    #about {
+        right: 25vw; 
+    }
+    #projects{
+        right: 12.5vw;
+    }
+      
+    #resume {
+        left: 12.5vw; 
+    }
+    #contact {
+        left: 25vw; 
+    }
 }
   
-#resume {
-    left: 12.5vw; /* Change this to control the horizontal position of the resume and contact buttons */
+@media (max-width: 850px) {
+    .button-container {
+        font: 10px "Century Gothic", Trebuchet MS, sans-serif;
+        #about {
+            right: 40vw; 
+        }
+        #projects{
+            right: 20vw;
+        }
+          
+        #resume {
+            left: 20vw; 
+        }
+        #contact {
+            left: 40vw; 
+        }
+    }
 }
-#contact {
-    transition: all 0.7s;
-    left: 25vw; /* Change this to control the horizontal position of the resume and contact buttons */
-}
-  
+
 .button:hover {
     transform: scale(1.05);
 }
@@ -76,7 +96,6 @@
     text-align: center;
     transition: all 3s;
 }
-
 
 
 

@@ -29,7 +29,7 @@ const handleMouseLeave = () => {
 }
   
   return (
-      <div id={props.id} className="section" style={{width: '45%', margin: '0 auto', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+      <div id={props.id} className="section">
           <h2>Projects</h2>
           <div onMouseEnter={() => handleMouseEnter(1)} onMouseLeave={handleMouseLeave} style={{
             borderRadius: '10px', 

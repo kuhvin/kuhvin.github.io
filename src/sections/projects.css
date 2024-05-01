@@ -8,3 +8,23 @@
 .custom-link-p:hover {
     color: #7289da;
 }
+
+.section {
+    width: 55vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 850px) {
+    .section {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+}
