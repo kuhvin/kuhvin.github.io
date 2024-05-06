@@ -10,7 +10,7 @@ class Resume extends React.Component {
         <h2>Resume</h2>
         <p style={{marginBottom: '80px'}}><a href={resumepdf} className="custom-link" style={{textDecoration: 'underline'}} target="_blank" rel="noopener noreferrer">Here's the PDF copy.</a></p>
       </div>
-      <div className="resume" style={{width: '50%', margin: 'auto'}}>
+      <div className="resume" style={{width: '90%', margin: 'auto'}}>
       <h1>Kevin Li</h1>
       <h5 style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}> 
             <a className="custom-link" href="mailto:kevinli5090@gmail.com">kevinli5090@gmail.com</a> | 
@@ -30,14 +30,12 @@ class Resume extends React.Component {
             <li> <strong>Relevant Coursework:</strong> Data Structures, Algorithms, Relational Databases, Software Engineering</li>
           </ul>
           </p>
-          <h2>TECHNICAL SKILLS</h2>
-          <hr/>
-          <ul style = {{marginBottom: '30px'}}> 
-            <li><strong>Languages:</strong> Java, JavaScript, Python, SQL, C++, C, HTML, PHP</li>
-            <li><strong>Tools:</strong> React, Express, Node, Git, Slack, MySQL, Junit, Excel, Microsoft PowerApps </li>
-          </ul>
           <h2>WORK/VOLUNTEER EXPERIENCE</h2>
           <hr/>
+          <div style={{display: 'flex', justifyContent: 'space-between'}}>
+              <p><b>ZiyuTec - Incoming Software Engineer Intern • Vancouver, BC</b></p>
+              <p><b>May 2024 - August 2024</b></p>
+          </div>
           <div style={{display: 'flex', justifyContent: 'space-between'}}>
               <p><b>Bantrel - Project Controls Intern • Edmonton, AB</b></p>
               <p><b>May 2023 - August 2023</b></p>
@@ -90,7 +88,14 @@ class Resume extends React.Component {
             <li>Used JSON Reader and Writer to create temporary databases on local devices</li>
             <li>Tested implementation and exception handling using the JUnit library </li>
           </ul>
+          <h2>TECHNICAL SKILLS</h2>
+          <hr/>
+          <ul style = {{marginBottom: '30px'}}> 
+            <li><strong>Languages:</strong> Java, Python, JavaScript, SQL, HTML/C++, C, PHP</li>
+            <li><strong>Tools:</strong> Git, React, Express.js, Node.js, Slack, MySQL, Junit, pandas, Excel, Microsoft PowerApps</li>
+          </ul>
           </div>
+          
       </div>
       </>
     );
