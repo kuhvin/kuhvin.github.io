@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import Privacy from './Privacy';
 import Profile from './Profile';
