@@ -1,10 +1,10 @@
 import React from 'react';
-import './Profile.css';
+import './privacy.css';
 
 const Privacy = () => (
-  <div className="profile-container">
+  <div className="privacy-container">
     <h1>Kuhvin Privacy Policy</h1>
-    <p><strong>Last updated:</strong> [Date]</p>
+    <p><strong>Last updated:</strong> [August 22, 2025]</p>
     <p>
       This Privacy Policy describes how Kuhvin (the "Site", "we", "us", or "our") collects, uses, and discloses your personal information when you visit, use our services, or make a purchase from kuhvin.me (the "Site") or otherwise communicate with us (collectively, the "Services"). For purposes of this Privacy Policy, "you" and "your" means you as the user of the Services, whether you are a customer, website visitor, or another individual whose information we have collected pursuant to this Privacy Policy.
     </p>

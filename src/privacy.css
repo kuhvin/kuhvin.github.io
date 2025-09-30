@@ -1,0 +1,60 @@
+/* Privacy Policy Page Styles - matches site dark theme */
+.privacy-container {
+  max-width: 800px;
+  margin: 4rem auto 2rem auto;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  background: #232323;
+  border-radius: 18px;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.18);
+  color: #f3f3f3;
+  font-family: "Century Gothic", Trebuchet MS, sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+.privacy-container h1 {
+  color: #fff;
+  font-size: 2.3rem;
+  margin-bottom: 1.3rem;
+  letter-spacing: 0.01em;
+}
+.privacy-container h2 {
+  color: #e0e0e0;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.3rem;
+}
+.privacy-container h3, .privacy-container h4 {
+  color: #bdbdbd;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.privacy-container ul {
+  margin-left: 1.3rem;
+  margin-bottom: 1.2rem;
+}
+.privacy-container li {
+  margin-bottom: 0.5rem;
+}
+.privacy-container p {
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+.privacy-container a {
+  color: #7ab7ff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.privacy-container a:hover {
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .privacy-container {
+    padding: 1.2rem 0.5rem;
+    font-size: 0.98rem;
+  }
+  .privacy-container h1 {
+    font-size: 1.5rem;
+  }
+}
